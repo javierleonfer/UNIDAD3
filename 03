@@ -1,0 +1,53 @@
+; Verificar_Cadena no Vacia
+; JZ
+
+INCLUDE Irvine32.inc
+
+.data
+    Cadena1 BYTE "Hola", 0
+    Cadena2 BYTE "Hola", 0
+
+.code
+main PROC
+
+    mov esi, OFFSET Cadena1
+    call Validacion
+
+    test ecx, ecx
+    JZ NoValida
+
+    mov edx, OFFSET Cadena1
+    call WriteString
+    call Crlf
+
+    Jmp Fin
+
+NoValida:
+
+    mov edx, OFFSET Cadena2
+    call WriteString
+    call Crlf
+
+Fin:
+    Exit
+
+main ENDP
+
+Validacion PROC
+
+    mov ecx, 0
+    mov eax, 0
+
+Buscar:
+
+    cmp BYTE PTR [esi+ecx], 0
+    je Salir
+
+    mov ecx, 1
+
+Salir:
+    ret
+
+Validacion ENDP
+
+END main
