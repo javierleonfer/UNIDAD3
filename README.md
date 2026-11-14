@@ -26,7 +26,7 @@ Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con `Write
 
 Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que multiplica 8 × 5 e imprime 40.
 
-**Archivo:** [03 - Macros](https://github.com/javierleonfer/UNIDAD3/commit/75771de493c1595fef72f2717b0819cdfa186168)
+**Archivo:** [03.asm](https://github.com/javierleonfer/UNIDAD3/commit/75771de493c1595fef72f2717b0819cdfa186168)
 
 ---
 
@@ -34,7 +34,7 @@ Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que mu
 
 Un procedimiento revisa si el primer carácter es 0; con `TEST` y `JZ` decide si imprime la cadena o un aviso de cadena vacía.
 
-**Archivo:** [04 - Verificar cadena](https://github.com/javierleonfer/UNIDAD3/commit/89b755925714623cba26cfa3d4e4e90244769099)
+**Archivo:** [04.asm](https://github.com/javierleonfer/UNIDAD3/commit/89b755925714623cba26cfa3d4e4e90244769099)
 
 ---
 
@@ -42,6 +42,6 @@ Un procedimiento revisa si el primer carácter es 0; con `TEST` y `JZ` decide si
 
 Utiliza los parámetros mediante la pila y la manipulación de registros con `PUSH`, `CALL`, `EBP`, `ESP`, `IMUL` y `RET` para multiplicar dos valores.
 
-**Archivo:** [05 - Procedimientos con parámetros](https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627)
+**Archivo:** [05.asm](https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627)
 
 
