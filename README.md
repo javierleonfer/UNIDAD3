@@ -26,7 +26,7 @@ Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con `Write
 
 Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que multiplica 8 × 5 e imprime 40.
 
-**Archivo:** [03.asm](https://github.com/javierleonfer/UNIDAD3/commit/75771de493c1595fef72f2717b0819cdfa186168)
+**Archivo:** [03.asm]https://github.com/javierleonfer/UNIDAD3/blob/main/03.asm
 
 ---
 
