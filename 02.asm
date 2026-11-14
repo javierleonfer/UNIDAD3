@@ -1,9 +1,9 @@
-;03— UNIDAD 3
+;02— UNIDAD 3
 ; Materia: Lenguajes de Interfaz
 ; Alumno: LEON FERNANDEZ ALEXIS JAVIER
 ; Horario: 8-9
 ; Docente: DR. José Luis Medina Jiménez
-; Práctica: 3
+; Práctica: 2
 ; Descripción:
 ;pondremos el registro EBX = 10.
 ;Llama a Procedimiento1, que le suma 5, así que EBX queda en 15, y regresa.
