@@ -1,5 +1,5 @@
 UNIDAD 3
-PRACTICAS DE LENGUAJE ENSAMBLADOR (MASM) CON LA LIBRERIA IRVINE32
+PRACTICAS 
 
 Alumno: LEON FERNANDEZ ALEXIS JAVIER
 Horario: 8-9 HRS
@@ -30,19 +30,6 @@ Funcionamiento: Un procedimiento revisa si el primer caracter es 0; con TEST y J
 Archivo: 04_Verificar_Cadena.asm
 
 
-COMO ORGANIZAR LOS ARCHIVOS EN GITHUB
-=====================================
 
-OPCION RECOMENDADA: crear una carpeta para cada practica.
-
-UNIDAD3/
-|
-|-- README.md
-|-- 01/
-|   |-- 01_Procedimientos.asm
-|-- 02/
-|   |-- 02_Valor_EBX.asm
-|-- 03/
-|   |-- 03_Macros.asm
 |-- 04/
     |-- 04_Verificar_Cadena.asm
