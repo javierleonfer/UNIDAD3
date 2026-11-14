@@ -1,11 +1,18 @@
-;contextualizacion de la unidad 
+;05— UNIDAD 3
+; Materia: Lenguajes de Interfaz
+; Alumno: LEON FERNANDEZ ALEXIS JAVIER
+; Horario: 8-9
+; Docente: DR. José Luis Medina Jiménez
+; Práctica:5 hecha por alumno ;contextualizacion de la unidad 
+
+
 ;descripcion:Pone EBX = 999. Ese valor sirve para comprobar que el procedimiento no lo cambia.
-contesxto del orden LIFO que sigue la pila 
-[ebp+12] -- primer push 
-[ebp+8]  -- ultimpo pusj
-[ebp+4]  --dirreccion que guarda call
-[ebp]    --el ultimo EBP
-[ebp-4]  --se guarda en EBX
+;contesxto del orden LIFO que sigue la pila 
+;[ebp+12] -- primer push 
+;[ebp+8]  -- ultimpo pusj
+;[ebp+4]  --dirreccion que guarda call
+;[ebp]    --el ultimo EBP
+;[ebp-4]  --se guarda en EBX
 
 INCLUDE Irvine32.inc
 
