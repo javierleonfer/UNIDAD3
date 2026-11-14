@@ -14,7 +14,7 @@ Descripcion: Procedimientos.
 Funcionamiento: Llama dos veces a un procedimiento con CALL y regresa con RET a la instruccion siguiente.
 Archivo: 01_Procedimientos.asm
 
-PRACTICA 02
+PRACTICA 02 https://github.com/javierleonfer/UNIDAD3/blob/fd0b3e2d72e508ac69507394e8150c1c6711e627/02.asm
 Descripcion: Modificacion del registro EBX.
 Funcionamiento: Un procedimiento suma 5 a EBX (10 -> 15) y MAIN imprime el resultado con WriteDec.
 Archivo: 02_Valor_EBX.asm
