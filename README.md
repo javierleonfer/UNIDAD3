@@ -9,7 +9,7 @@ Trabajos proporcionados por el Dr. Medina
 INDICE DE PRACTICAS
 ===================
 
-PRACTICA 01
+[PRACTICA 01]https://github.com/javierleonfer/UNIDAD3/blob/main/01.asm
 Descripcion: Procedimientos.
 Funcionamiento: Llama dos veces a un procedimiento con CALL y regresa con RET a la instruccion siguiente.
 Archivo: 01_Procedimientos.asm
