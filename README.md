@@ -8,7 +8,7 @@
 
 ### 01. Práctica de procedimientos
 
-Llama dos veces a un procedimiento con `CALL` y regresa con `RET` a la instrucción siguiente.
+Llama dos veces a un procedimiento con CALL y regresa con RET a la instrucción siguiente.
 
 **Archivo:** [01.asm](https://github.com/javierleonfer/UNIDAD3/blob/main/01.asm)
 
@@ -16,7 +16,7 @@ Llama dos veces a un procedimiento con `CALL` y regresa con `RET` a la instrucci
 
 ### 02. Modificación del registro EBX
 
-Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con `WriteDec`.
+Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con WriteDec.
 
 **Archivo:** [02.asm](https://github.com/javierleonfer/UNIDAD3/blob/fd0b3e2d72e508ac69507394e8150c1c6711e627/02.asm)
 
@@ -24,7 +24,7 @@ Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con `Write
 
 ### 03. Macros
 
-Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que multiplica 8 × 5 e imprime 40.
+Utiliza las macros MostrarMensaje, que imprime textos, y Multiplicar, que multiplica 8 × 5 e imprime 40.
 
 **Archivo:** [03.asm]https://github.com/javierleonfer/UNIDAD3/blob/main/03.asm
 
@@ -32,7 +32,7 @@ Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que mu
 
 ### 04. Verificar cadena no vacía
 
-Un procedimiento revisa si el primer carácter es 0; con `TEST` y `JZ` decide si imprime la cadena o un aviso de cadena vacía.
+Un procedimiento revisa si el primer carácter es 0; con TEST y JZ decide si imprime la cadena o un aviso de cadena vacía.
 
 **Archivo:** [04.asm]https://github.com/javierleonfer/UNIDAD3/blob/62ea6e40895db87e48b5e7572c8c405cb93d03c9/04.asm
 
