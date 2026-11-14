@@ -24,7 +24,7 @@ Descripcion: Macros.
 Funcionamiento: Utiliza las macros MostrarMensaje, que imprime textos, y Multiplicar, que multiplica 8 x 5 e imprime 40.
 Archivo: 03_Macros.asm
 
-PRACTICA 04
+PRACTICA 04 https://github.com/javierleonfer/UNIDAD3/commit/89b755925714623cba26cfa3d4e4e90244769099
 Descripcion: Verificar cadena no vacia.
 Funcionamiento: Un procedimiento revisa si el primer caracter es 0; con TEST y JZ decide si imprime la cadena o un aviso de cadena vacia.
 Archivo: 04_Verificar_Cadena.asm
