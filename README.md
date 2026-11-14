@@ -33,8 +33,12 @@ Fin del programa
 
 ---
 
-### 03. Macros
+### Práctica 3: Verificar que una cadena no esté vacía
+**Descripción:** main pone en ESI la dirección de Cadena1 y llama a Validacion. El procedimiento revisa el primer carácter y regresa ECX = 0 osea que es el terminador (cadena vacía) o ECX = 1 si tiene algo (texto=. De vuelta en main, TEST ECX, ECX y salto JZ deciden qué mensaje imprimir.
 
+**Qué se comprueba:** El uso de un procedimiento como validación (como un "if") que devuelve su resultado en un registro, y el salto condicional con JZ ya sea ese resultado.
+
+**Salida esperada:** Hola
 Utiliza las macros MostrarMensaje, que imprime textos, y Multiplicar, que multiplica 8 × 5 e imprime 40.
 
 **Archivo:** [03.asm]https://github.com/javierleonfer/UNIDAD3/blob/main/03.asm
