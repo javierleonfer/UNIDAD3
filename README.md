@@ -44,6 +44,4 @@ Utiliza los parámetros mediante la pila y la manipulación de registros con `PU
 
 **Archivo:** [05 - Procedimientos con parámetros](https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627)
 
----
 
-**Tecnologías utilizadas:** MASM, Visual Studio e Irvine32.
