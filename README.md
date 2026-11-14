@@ -6,9 +6,16 @@
 
 ## Índice de prácticas
 
-### 01. Práctica de procedimientos
+### Práctica 1: Llamado y retorno de procedimientos (CALL / RET)
+**Descripción:** El programa imprime un msj de inicio, llama dos veces al procedimiento mostrarAviso con LLAMADOS CALL y al final imprime un mensaje de fin. Entre las llamadas se cargan los valores 10 y 20 en EAX;solo como marca de que la ejecución continúa después de cada retorno RET.
 
-Llama dos veces a un procedimiento con CALL y regresa con RET a la instrucción siguiente.
+**Qué se comprueba al ejecutarlo:** CALL tiene que guardar en la jerarquía pila la dirección de la instrucción siguiente y salta al procedimiento. RET la recupera y regresa justo después del llamado. Osea  que el aviso aparece dos veces, cada vez en su lugar, y que el programa sigue su orden hasta terminar.
+
+**Salida esperada:**
+Inicio de programa
+Estoy dentro del procedimiento
+Estoy dentro del procedimiento
+Fin del programa
 
 **Archivo:** [01.asm](https://github.com/javierleonfer/UNIDAD3/blob/main/01.asm)
 
@@ -16,7 +23,7 @@ Llama dos veces a un procedimiento con CALL y regresa con RET a la instrucción 
 
 ### 02. Modificación del registro EBX
 
-Un procedimiento suma 5 a EBX (10 → 15) y MAIN imprime el resultado con WriteDec.
+
 
 **Archivo:** [02.asm](https://github.com/javierleonfer/UNIDAD3/blob/fd0b3e2d72e508ac69507394e8150c1c6711e627/02.asm)
 
