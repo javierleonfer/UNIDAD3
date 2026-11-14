@@ -58,8 +58,8 @@ Hasta luego, vuelva pronto
 
 ---
 
-### ##https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627
-### Práctica 5: Macro con IMUL
+### 
+### Práctica 5: Macro con IMUL https://github.com/javierleonfer/UNIDAD3/blob/main/05.asm
 **Descripción:** Completa el ejemplo de mensajes con una multiplicación. La macro se va a MultiplicarValores calcula 6 × 7 con IMUL y deja el producto en EAX. Osease que La impresión se hace desde main con WriteDec.
 
 **Qué se comprueba:** Una macro puede devolver su resultado en un registro, igual que un procedimiento, y separar el cálculo de la impresión.
