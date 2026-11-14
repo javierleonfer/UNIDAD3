@@ -1,3 +1,17 @@
+;03— UNIDAD 3
+; Materia: Lenguajes de Interfaz
+; Alumno: LEON FERNANDEZ ALEXIS JAVIER
+; Horario: 8-9
+; Docente: DR. José Luis Medina Jiménez
+; Práctica: 3
+; Descripción:
+;pondremos el registro EBX = 10.
+;Llama a Procedimiento1, que le suma 5, así que EBX queda en 15, y regresa.
+;Imprime el texto "Valor de EBX".
+;Copia EBX a EAX y lo imprime con WriteDec, porque WriteDec solo imprime lo que está en EAX.
+;Salida esperada Valor de EBX15 El número sale pegado al texto porque la cadena no termina en espacio.
+
+;codigo de clase :
 INCLUDE Irvine32.inc
 
 .data
