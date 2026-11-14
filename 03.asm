@@ -72,3 +72,55 @@ Salir:
 Validacion ENDP
 
 END main
+
+;modificaion dealumno :
+;INCLUDE Irvine32.inc
+
+;.data
+;    mensaje BYTE "Resultado de la multiplicacion: ", 0
+;
+;.code
+;main PROC
+;    mov ebx, 999
+;
+;    ; Enviar argumentos a la pila
+;    push 3
+;    push 25
+;
+ ;   call SumarPila
+;
+;    ; Mostrar resultado que regresa en EAX
+;    mov edx, OFFSET mensaje
+ ;   call WriteString
+;    call WriteDec
+;    call Crlf
+;
+;   exit
+;main ENDP
+
+;SumarPila PROC
+
+    ; Guardar el marco de pila
+;    push ebp
+;    mov ebp, esp
+
+  ;  push ebx
+
+  ;  ; >>> AGREGADO: obtener los dos argumentos
+  ;  mov eax, [ebp+8]
+  ;  mov ebx, [ebp+12]
+
+    ; >>> AGREGADO: multiplicar los valores
+   ; imul eax, ebx
+
+    ; Recuperar registros
+   ; pop ebx
+  ;  pop ebp
+
+    ; >>> AGREGADO: regresar y limpiar 8 bytes
+   ; ret 8
+
+;SumarPila ENDP
+
+;END main
+
