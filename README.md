@@ -28,7 +28,8 @@ PRACTICA 04 https://github.com/javierleonfer/UNIDAD3/commit/89b755925714623cba26
 Descripcion: Verificar cadena no vacia.
 Funcionamiento: Un procedimiento revisa si el primer caracter es 0; con TEST y JZ decide si imprime la cadena o un aviso de cadena vacia.
 Archivo: 04_Verificar_Cadena.asm
-
+ Practica 05 https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627
+ 
 
 
 |-- 04/
