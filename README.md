@@ -21,8 +21,12 @@ Fin del programa
 
 ---
 
-### 02. Modificación del registro EBX
+### 02. PROC QUE MODIFICA  EBX
+**Descripción:** Pone EBX = 10, llama a Procedimiento1, que le suma 5, e imprime el resultado. El valor se copia a EAX porque WriteDec solo imprime registro EAX.
 
+**Qué se comprueba:** Un procedimiento puede devolver su resultado en un registro. EBX regresa modificado después del cada RET.
+
+**Salida esperada:** `Valor de EBX: 15`
 
 
 **Archivo:** [02.asm](https://github.com/javierleonfer/UNIDAD3/blob/fd0b3e2d72e508ac69507394e8150c1c6711e627/02.asm)
