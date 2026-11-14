@@ -45,10 +45,15 @@ Utiliza las macros MostrarMensaje, que imprime textos, y Multiplicar, que multip
 
 ---
 
-### 04. Verificar cadena no vacía
+### Práctica 4: Macros (MACRO / ENDM)
+**Descripción:** Define dos macros. (ejemplo explicito de a donde se van los registro cuando se trabaja con dos MACRO)MostrarMensaje imprime una cadena con WriteString, y Multiplicar multiplica dos número  con IMUL e imprime el resultado. En mainv se muestra la bienvenida, se multiplica 8 × 5 y se muestra la despedida.
 
-Un procedimiento revisa si el primer carácter es 0; con TEST y JZ decide si imprime la cadena o un aviso de cadena vacía.
+**Qué se comprueba:** Una macro se expande en el lugar donde se usa (no hay CALL ni RET) y acepta parámetros, así que el mismo código sirve para distintos datos.
 
+**Salida esperada:**
+Bienvenido al sistema
+40
+Hasta luego, vuelva pronto
 **Archivo:** [04.asm]https://github.com/javierleonfer/UNIDAD3/blob/62ea6e40895db87e48b5e7572c8c405cb93d03c9/04.asm
 
 ---
