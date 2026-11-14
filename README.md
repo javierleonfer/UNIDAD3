@@ -34,7 +34,7 @@ Utiliza las macros `MostrarMensaje`, que imprime textos, y `Multiplicar`, que mu
 
 Un procedimiento revisa si el primer carácter es 0; con `TEST` y `JZ` decide si imprime la cadena o un aviso de cadena vacía.
 
-**Archivo:** [04.asm](https://github.com/javierleonfer/UNIDAD3/commit/89b755925714623cba26cfa3d4e4e90244769099)
+**Archivo:** [04.asm]https://github.com/javierleonfer/UNIDAD3/blob/62ea6e40895db87e48b5e7572c8c405cb93d03c9/04.asm
 
 ---
 
