@@ -42,6 +42,4 @@ Un procedimiento revisa si el primer carácter es 0; con `TEST` y `JZ` decide si
 
 Utiliza los parámetros mediante la pila y la manipulación de registros con `PUSH`, `CALL`, `EBP`, `ESP`, `IMUL` y `RET` para multiplicar dos valores.
 
-**Archivo:** [05.asm]https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627
-
 
