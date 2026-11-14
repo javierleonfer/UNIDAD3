@@ -54,3 +54,41 @@ mostrarAviso PROC
 mostrarAviso ENDP
 
 END main
+;código final :
+
+.data
+    mensaje BYTE "Valor de EBX: ", 0
+
+.code
+main PROC
+    mov ebx, 10
+    call Procedimiento1
+
+    ; El procedimiento deja su resultado en EBX: ahora vale quince.
+    mov edx, OFFSET mensaje
+    call WriteString
+
+    ; WriteDec toma el número de EAX, por eso copiamos el resultado.
+    mov eax, ebx
+    call WriteDec
+    call Crlf
+    exit
+main ENDP
+
+; Entrada: EBX con el valor inicial. Salida: EBX aumentado en cinco.
+; Modifica EBX y las banderas. No lo restauramos porque es el resultado.
+Procedimiento1 PROC
+    add ebx, 5
+    ret
+Procedimiento1 ENDP
+
+END main
+;## Salida esperada
+
+;text
+;Valor de EBX: 15
+;```
+
+;Qué se comprobó
+
+;Ensamblado y enlace correctos. Ejecución bloqueada: Defender puso el ejecutable en cuarentena. Resultado esperado por revisión del código: 15.
