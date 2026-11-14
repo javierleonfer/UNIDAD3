@@ -1,6 +1,6 @@
 ; Materia: Lenguajes de Interfaz - Unidad 3
 ; Alumno: LEON FERNANDEZ ALEXIS JAVIER
-; Horario:9-10hrs
+; Horario:8-9hrs
 ; Docente: DR. José Luis Medina Jiménez
 ; Práctica 05: Agregar una macro con IMUL
 ; Descripción: Completa el ejemplo de mensajes con una multiplicación.
