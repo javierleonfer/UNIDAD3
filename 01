@@ -1,6 +1,15 @@
-# 01. PRÁCTICA DE PROCEDIMIENTOS — UNIDAD 3
-
-```asm
+;01. PRÁCTICA DE PROCEDIMIENTOS — UNIDAD 3
+; Materia: Lenguajes de Interfaz
+; Alumno: LEON FERNANDEZ ALEXIS JAVIER
+; Horario: 8-9
+; Docente: DR. José Luis Medina Jiménez
+; Práctica: 1 
+; Descripción:Aquí este programa lo que hara sera manejos de llamado y llamador osea interaciones con calll ..que dentro delprocedimiento 
+se vera como responde un retorno ret osea que pasara con lla instruccion en el contexto ..
+Imprime "Inicio de programa".
+Llama dos veces a mostrarAviso, que imprime "Estoy dentro del procedimiento" y regresa con ret.
+Entre los llamados hace mov eax, 10 y mov eax, 20. No sirven para el resultado ya que  solo marcan que el programa siguió después de cada ret
+Al final imprime la "Fin del programa".
 INCLUDE Irvine32.inc
 
 .data
@@ -43,4 +52,3 @@ mostrarAviso PROC
 mostrarAviso ENDP
 
 END main
-```
