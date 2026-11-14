@@ -26,7 +26,7 @@ Fin del programa
 
 **Qué se comprueba:** Un procedimiento puede devolver su resultado en un registro. EBX regresa modificado después del cada RET.
 
-**Salida esperada:** `Valor de EBX: 15`
+**Salida esperada:** Valor de EBX: 15
 
 
 **Archivo:** [02.asm](https://github.com/javierleonfer/UNIDAD3/blob/fd0b3e2d72e508ac69507394e8150c1c6711e627/02.asm)
