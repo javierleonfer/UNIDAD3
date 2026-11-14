@@ -58,8 +58,16 @@ Hasta luego, vuelva pronto
 
 ---
 
-### 05. Procedimientos con parámetros mediante la pila ##https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627
+### ##https://github.com/javierleonfer/UNIDAD3/commit/fd0b3e2d72e508ac69507394e8150c1c6711e627
+### Práctica 5: Macro con IMUL
+**Descripción:** Completa el ejemplo de mensajes con una multiplicación. La macro se va a MultiplicarValores calcula 6 × 7 con IMUL y deja el producto en EAX. Osease que La impresión se hace desde main con WriteDec.
 
-Utiliza los parámetros mediante la pila y la manipulación de registros con `PUSH`, `CALL`, `EBP`, `ESP`, `IMUL` y `RET` para multiplicar dos valores.
+**Qué se comprueba:** Una macro puede devolver su resultado en un registro, igual que un procedimiento, y separar el cálculo de la impresión.
+
+**Salida esperada:**
+Bienvenido al sistema
+Resultado de 6 por 7:
+42
+Hasta luego, vuelva pronto
 
 
